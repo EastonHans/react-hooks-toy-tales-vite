@@ -1,8 +1,15 @@
 # Practice Challenge: Toy Tales
 
-You've got a friend in need! Again!
+Toy Tales is a React application that allows Andy to manage his toy collection. Users can view all toys, add new ones, increase the "likes" for specific toys, and "donate" (delete) toys from the collection.
 
-Andy has misplaced of his toys (again) and need your help to organize them.
+![Toy Tales Finished](https://curriculum-content.s3.amazonaws.com/phase-2/toy-tales/toy-tales-demo.gif)
+
+## Features
+
+- **View Toys**: Automatically fetches and displays all toy cards from the backend on load.
+- **Add a Toy**: A controlled form to create new toy entries with a persistent POST request.
+- **Like a Toy**: Optimistically update and persist toy likes via PATCH requests.
+- **Donate a Toy**: Remove toys from the collection and the database using DELETE requests.
 
 ## Setup
 
